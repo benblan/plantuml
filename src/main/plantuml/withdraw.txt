@@ -1,0 +1,7 @@
+@startuml
+
+participant BankAccountService as srv
+participant BankAccountRepositoryPort as repo
+participant BankAccount as acct
+
+@enduml
