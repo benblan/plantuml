@@ -4,4 +4,10 @@ participant BankAccountService as srv
 participant BankAccountRepositoryPort as repo
 participant BankAccount as acct
 
+[-> srv : withDraw(iban, amount)
+
+' Ajouter ici le contenu
+
+[<-- srv
+
 @enduml
